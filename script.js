@@ -1,8 +1,8 @@
 constnumero1 = 8
 constnumero2 = 12
 
-function somaNumeros(){
-    console.log("Cheguei aqui!")
+function somaNumeros(a, b){
+    console.log(a + b)
 }
 
-console.log("Não chamei a função")
+somaNumeros(5, 7)
